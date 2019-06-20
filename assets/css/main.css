@@ -9696,11 +9696,32 @@ h2 {
   height: 440px;
   float: left;
   padding: 1rem 3.5rem;
-  background-color: red;
+  background-color: green;
 }
 .main__title p {
   padding-top: 0.8rem;
   font-size: 1.875rem;
+}
+.main__yellow {
+  width: 7rem;
+  height: 7rem;
+  background-color: yellow;
+  position: absolute;
+  margin: 20.5rem 0px 0 54rem;
+  z-index: 1;
+}
+.main__orange {
+  width: 7rem;
+  height: 7rem;
+  background-color: orangered;
+  position: absolute;
+  margin: 19.5rem 0px 0 53rem;
+  z-index: 2;
+  text-align: center;
+}
+.main__orange i {
+  margin: 1.5rem 0 1.5rem 0;
+  color: #ffffff;
 }
 .main__info-datos {
   width: 469px;
@@ -9709,6 +9730,7 @@ h2 {
   float: right;
   margin-top: 19rem;
   padding: 0.7rem;
+  position: relative;
 }
 
 .main__caja-interna {
@@ -9792,9 +9814,6 @@ h2 {
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  /* img{
-     width: 100%;
-   }*/
 }
 .we-us-img {
   width: 381px;

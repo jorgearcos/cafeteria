@@ -23,12 +23,37 @@
         height: 440px;
         float: left;
         padding:1rem 3.5rem;
-        background-color: red;
+        background-color: green;
+        
 
         p{
             padding-top: .8rem;
             font-size: $x-large;
         }
+    }
+
+    &__yellow{
+        width: 7rem;
+        height: 7rem;
+        background-color: yellow;
+        position: absolute;
+        margin: 20.5rem 0px 0 54rem;
+        z-index:1;
+    }
+    &__orange{
+        width: 7rem;
+        height: 7rem;
+        background-color: orangered;
+        position: absolute;
+        margin: 19.5rem 0px 0 53rem;
+        z-index:2;
+        text-align: center;
+
+        i{
+            margin: 1.5rem 0 1.5rem 0;
+            color: $white;
+        }
+
     }
 
     &__info-datos{
@@ -38,6 +63,7 @@
         float: right;
         margin-top: 19rem;
         padding: .7rem;
+        position: relative;
     }
 }
 
