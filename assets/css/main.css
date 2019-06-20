@@ -9676,7 +9676,7 @@ h2 {
 
 .main {
   width: 100%;
-  height: 440px;
+  height: 27.5rem;
   display: block;
 }
 .main h1 {
@@ -9684,38 +9684,37 @@ h2 {
   line-height: 4.375rem;
 }
 .main__info {
-  width: 899px;
-  height: 440px;
+  width: 55.6rem;
+  height: 27.5rem;
   background-image: url("../img/img-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   float: left;
 }
 .main__title {
-  width: 381px;
-  height: 440px;
+  width: 24rem;
+  height: 27.5rem;
   float: left;
   padding: 1rem 3.5rem;
-  background-color: green;
 }
 .main__title p {
   padding-top: 0.8rem;
   font-size: 1.875rem;
 }
 .main__yellow {
-  width: 7rem;
-  height: 7rem;
-  background-color: yellow;
+  width: 8.4rem;
+  height: 8.4rem;
+  background-color: #EACB31;
   position: absolute;
-  margin: 20.5rem 0px 0 54rem;
+  margin: 19.2rem 0px 0 54rem;
   z-index: 1;
 }
 .main__orange {
-  width: 7rem;
-  height: 7rem;
-  background-color: orangered;
+  width: 8.4rem;
+  height: 8.4rem;
+  background-color: #e4572e;
   position: absolute;
-  margin: 19.5rem 0px 0 53rem;
+  margin: 18.2rem 0px 0 53rem;
   z-index: 2;
   text-align: center;
 }
@@ -9724,8 +9723,8 @@ h2 {
   color: #ffffff;
 }
 .main__info-datos {
-  width: 469px;
-  height: 136px;
+  width: 29.3rem;
+  height: 8.5rem;
   background-color: #eeeded;
   float: right;
   margin-top: 19rem;
@@ -9739,7 +9738,7 @@ h2 {
   box-sizing: content-box;
 }
 .main__caja-interna--tmn {
-  width: 80px;
+  width: 5rem;
 }
 .main__caja-interna span {
   font-family: "PT Mono", monospace;
