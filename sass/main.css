@@ -9785,16 +9785,11 @@ h2 {
 .we-us-cafe {
   width: 90px;
   height: 150px;
-  z-index: 2;
+  z-index: 4;
   margin-left: 30rem;
-  position: absolute;
-  background-image: url("../img/img-3.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* img{
-     width: 100%;
-   }*/
+}
+.we-us-cafe img {
+  width: 100%;
 }
 .we-us-img {
   width: 381px;

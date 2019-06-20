@@ -1,75 +1,44 @@
-//propiedad bootstrap
-.container{
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+.caja{
+    height: 264px;
+    display: block;
+    background-color: brown;
+    float: left;
+    position: relative;
 }
-
-/*foto
-w:381
-H:264*/
-
-/*.col{
-    max-width: 30%;
-    margin: 0;
-    padding: 0;
-}*/
-
-/** prueba1
-.we-us{
-    width: 100%;
-    height: 16rem;
-
-    &-info{
-        width: 10%;
-        padding:3rem 4rem; 
-        display: inline;
-        box-sizing: border-box;
-        background-color: yellow;
-        height: 16rem;
-        
-    }
-
-    &-mapa img{
-        padding-top: 4rem;
-        width: 100%;
-    }
-}
-
-
-
-.we-us-img img{
-width: 100%;
-height: 16rem;
-//background-image: url('../img/img-2.png');
-}
-
-.clear {
-    clear: both;
-}*/
 
 .we-us{
     width: 100%;
     height: 264px;
     margin:0;
 
-    &-caja{
-        width: 33.3%;
-        height: 264px;
-        display: block;
-        background-color: brown;
-        float: left;
-        position: relative;
+    &-caja-informacion{
+        width: 381px;
+        @extend .caja;
+    
+    }
+    &-caja-mapa{
+    width: 518px;
+    @extend .caja;
+        
+    }
+
+    &-caja-imagen{
+        width: 381px;
+        @extend .caja;   
     }
 
     &-info{
         width: 100%;
-        padding:2rem 2rem; 
+        padding:4rem 2rem; 
         display: inline;
         box-sizing: border-box;
         height: 264px;
         background-color:yellow;
         display:block;
+        
+        p{
+            margin-top: 10px;
+        }
     }
 
     &-map {
@@ -90,15 +59,34 @@ height: 16rem;
         background-color: aqua;
         position: absolute;
         z-index:1;
-        margin-left:30px;
+        margin-left:137px;
+    }
+    
+    &-cafe {
+        width: 90px;
+        height: 150px;
+        z-index:2;
+        margin-left: 30rem;
+        position: absolute;
+        background-image: url('../img/img-3.png');
+       background-position: left;
+       background-repeat: no-repeat;
+       background-size: cover;
+           /* img{
+              width: 100%;
+            }*/
     }
 
     &-img {
-        width: 396px;
-        height: 264px;
+        width: 381px;
+        height: 100%;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
         
         img{
             width: 100%;
+            height:100%;
         }
         
     }
