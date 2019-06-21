@@ -1,0 +1,22 @@
+.button{
+    color:$spanish-gray;
+    border: 1px solid $spanish-gray;
+    font-size: $medium;
+
+    &:hover{
+        color:$outer-space;
+        border: 1px solid $outer-space;
+    }
+}
+
+.button--color{
+    color:$white;
+    border: 1px solid $shiny-shamrock;
+    background-color:$shiny-shamrock;
+    font-size: $medium;
+    &:hover{
+        color:$quicksilver;
+        border: 1px solid $turquoise-green;
+        background-color: $turquoise-green;
+    }
+}
